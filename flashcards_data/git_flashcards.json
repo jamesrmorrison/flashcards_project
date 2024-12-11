@@ -1,0 +1,100 @@
+[
+    {
+        "level": "Beginner",
+        "category": "Concepts",
+        "topic": "Version Control",
+        "question": "What is Git?",
+        "answer": "Git is a distributed version control system used to track changes in source code during software development."
+    },
+    {
+        "level": "Beginner",
+        "category": "Concepts",
+        "topic": "Repository",
+        "question": "What is a repository in Git?",
+        "answer": "A repository is a storage space where your project files and their version history are managed."
+    },
+    {
+        "level": "Beginner",
+        "category": "Commands",
+        "topic": "Initializing a Repository",
+        "question": "What does `git init` do?",
+        "answer": "It initializes a new Git repository in the current directory, creating a `.git` folder to track changes."
+    },
+    {
+        "level": "Beginner",
+        "category": "Commands",
+        "topic": "Staging Changes",
+        "question": "What command stages changes in Git?",
+        "answer": "`git add <file>` stages the specified file for the next commit."
+    },
+    {
+        "level": "Beginner",
+        "category": "Workflows",
+        "topic": "Basic Workflow",
+        "question": "What is the basic Git workflow?",
+        "answer": "1. Modify files in your working directory. 2. Stage changes using `git add`. 3. Commit changes with `git commit`."
+    },
+    {
+        "level": "Intermediate",
+        "category": "Concepts",
+        "topic": "Branching",
+        "question": "What is branching in Git?",
+        "answer": "Branching allows you to diverge from the main project line to work on changes without affecting the main codebase."
+    },
+    {
+        "level": "Intermediate",
+        "category": "Commands",
+        "topic": "Branching",
+        "question": "How do you create and switch to a new branch?",
+        "answer": "Use `git checkout -b <branch-name>` or `git switch -c <branch-name>`."
+    },
+    {
+        "level": "Intermediate",
+        "category": "Commands",
+        "topic": "Merging",
+        "question": "What does `git merge` do?",
+        "answer": "It combines changes from one branch into another."
+    },
+    {
+        "level": "Intermediate",
+        "category": "Workflows",
+        "topic": "Pulling Changes",
+        "question": "What is the difference between `git pull` and `git fetch`?",
+        "answer": "`git fetch` downloads changes without merging them, while `git pull` downloads and merges the changes into the current branch."
+    },
+    {
+        "level": "Advanced",
+        "category": "Concepts",
+        "topic": "Rebase",
+        "question": "What is rebasing in Git?",
+        "answer": "Rebasing re-applies commits on top of another base tip, creating a linear history."
+    },
+    {
+        "level": "Advanced",
+        "category": "Commands",
+        "topic": "Interactive Rebase",
+        "question": "What does `git rebase -i` do?",
+        "answer": "It allows you to interactively edit, squash, or reorder commits during a rebase."
+    },
+    {
+        "level": "Advanced",
+        "category": "Commands",
+        "topic": "Cherry-Picking",
+        "question": "How do you cherry-pick a commit?",
+        "answer": "Use `git cherry-pick <commit-hash>` to apply a specific commit from one branch to another."
+    },
+    {
+        "level": "Advanced",
+        "category": "Workflows",
+        "topic": "Advanced Conflict Resolution",
+        "question": "How do you resolve complex merge conflicts manually?",
+        "answer": "Open conflicting files, resolve conflicts, mark them resolved with `git add`, and commit the changes."
+    },
+    {
+        "level": "Advanced",
+        "category": "Workflows",
+        "topic": "Git Hooks",
+        "question": "What are Git hooks, and how are they used?",
+        "answer": "Git hooks are custom scripts that run automatically before or after specific Git events, such as committing or merging."
+    }
+]
