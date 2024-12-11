@@ -191,14 +191,14 @@ Stay tuned for updates in the [Future Roadmap](#future-roadmap).
 We value your feedback! If you encounter any errors in the flashcards or have ideas for new topics or features, here's how you can contribute:
 
 1. **Flagging Errors**:
-- Navigate to the [Issues](https://github.com/jamesrmorrison/flashcards_project/issues) section of the repository.
+- Navigate to the [Issues](https://github.com/jamesrmorrison/flashcards_project/issues/new/choose) section of the repository.
 - Create a new issue with the following details:
   - Flashcard topic
   - Error details or incorrect information
   - Suggested fix (optional)
 
 2. **Suggesting New Topics or Features**:
-- Use the [Issues](https://github.com/jamesrmorrison/flashcards_project/issues) section to describe your suggestion.
+- Use the [Issues](https://github.com/jamesrmorrison/flashcards_project/issues/new/choose) section to describe your suggestion.
 - Alternatively, open a discussion in the [Discussions](https://github.com/jamesrmorrison/flashcards_project/discussions) tab.
 - Provide a brief summary of your idea and how it could benefit the project.
 
