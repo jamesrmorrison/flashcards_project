@@ -1,0 +1,79 @@
+[
+    {
+        "level": "Beginner",
+        "category": "Concepts",
+        "topic": "Introduction",
+        "question": "What is NumPy?",
+        "answer": "NumPy is a Python library for numerical computing, providing support for arrays, matrices, and mathematical functions."
+    },
+    {
+        "level": "Beginner",
+        "category": "Concepts",
+        "topic": "Arrays",
+        "question": "What is the core data structure in NumPy?",
+        "answer": "The core data structure in NumPy is the ndarray, which stands for N-dimensional array."
+    },
+    {
+        "level": "Beginner",
+        "category": "Commands",
+        "topic": "Creating Arrays",
+        "question": "How do you create a NumPy array?",
+        "answer": "Use `numpy.array()` with a list or iterable, e.g., `numpy.array([1, 2, 3])`."
+    },
+    {
+        "level": "Beginner",
+        "category": "Commands",
+        "topic": "Array Properties",
+        "question": "How do you check the shape of an array?",
+        "answer": "Use the `.shape` attribute, e.g., `array.shape`."
+    },
+    {
+        "level": "Intermediate",
+        "category": "Commands",
+        "topic": "Array Operations",
+        "question": "How do you perform element-wise operations on arrays?",
+        "answer": "Use standard operators, e.g., `array1 + array2` or `array * 2`."
+    },
+    {
+        "level": "Intermediate",
+        "category": "Commands",
+        "topic": "Slicing",
+        "question": "How do you slice a NumPy array?",
+        "answer": "Use slicing syntax, e.g., `array[start:stop:step]`."
+    },
+    {
+        "level": "Intermediate",
+        "category": "Concepts",
+        "topic": "Broadcasting",
+        "question": "What is broadcasting in NumPy?",
+        "answer": "Broadcasting is a method for performing operations on arrays of different shapes by expanding them to compatible shapes."
+    },
+    {
+        "level": "Intermediate",
+        "category": "Workflows",
+        "topic": "Linear Algebra",
+        "question": "How do you perform matrix multiplication in NumPy?",
+        "answer": "Use `numpy.dot()` or the `@` operator for matrix multiplication."
+    },
+    {
+        "level": "Advanced",
+        "category": "Commands",
+        "topic": "Advanced Indexing",
+        "question": "How do you use boolean indexing in NumPy?",
+        "answer": "Pass a boolean array as an index to select elements, e.g., `array[array > 5]`."
+    },
+    {
+        "level": "Advanced",
+        "category": "Commands",
+        "topic": "Advanced Functions",
+        "question": "How do you compute the eigenvalues of a matrix?",
+        "answer": "Use `numpy.linalg.eig(matrix)`."
+    },
+    {
+        "level": "Advanced",
+        "category": "Workflows",
+        "topic": "Performance Optimization",
+        "question": "How can you optimize performance in NumPy?",
+        "answer": "Use vectorized operations and avoid Python loops for better performance."
+    }
+]

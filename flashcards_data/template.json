@@ -2,8 +2,15 @@
     {
         "level": "Beginner, Intermediate, Advanced",
         "category": "Concept, Command, Workflow",
-        "topic": "Version Control",
+        "topic": "Add a topic here",
         "question": "Add a question here",
         "answer": "Add an answer here"
+    },
+        {
+        "level": "Beginner, Intermediate, Advanced",
+        "category": "Quiz",
+        "topic": "Add a topic here",
+        "question": "A: Add an answer here/nB: Add an answer here/nC: Add an answer here/nD: Add an answer here",
+        "answer": "Correct Answer = {option}: Add correct answer here"
     }
 ]

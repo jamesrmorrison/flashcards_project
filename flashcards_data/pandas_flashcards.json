@@ -1,0 +1,93 @@
+[
+    {
+        "level": "Beginner",
+        "category": "Concepts",
+        "topic": "Introduction",
+        "question": "What is Pandas?",
+        "answer": "Pandas is a Python library for data manipulation and analysis, providing data structures like DataFrame and Series."
+    },
+    {
+        "level": "Beginner",
+        "category": "Concepts",
+        "topic": "Core Data Structures",
+        "question": "What are the core data structures in Pandas?",
+        "answer": "The core data structures in Pandas are Series (1D) and DataFrame (2D)."
+    },
+    {
+        "level": "Beginner",
+        "category": "Commands",
+        "topic": "Creating DataFrames",
+        "question": "How do you create a DataFrame in Pandas?",
+        "answer": "You can create a DataFrame using `pd.DataFrame(data)` where `data` can be a dictionary, list of lists, or other data structures."
+    },
+    {
+        "level": "Beginner",
+        "category": "Commands",
+        "topic": "Viewing Data",
+        "question": "What are some methods to view the first few rows of a DataFrame?",
+        "answer": "Use `df.head()` to view the first five rows or `df.tail()` to view the last five rows."
+    },
+    {
+        "level": "Beginner",
+        "category": "Workflows",
+        "topic": "Loading Data",
+        "question": "How do you load a CSV file into a DataFrame?",
+        "answer": "Use `pd.read_csv('filename.csv')` to load data from a CSV file into a DataFrame."
+    },
+    {
+        "level": "Intermediate",
+        "category": "Concepts",
+        "topic": "Indexing",
+        "question": "What is the purpose of an index in a DataFrame?",
+        "answer": "An index is used to uniquely identify rows in a DataFrame, enabling efficient data access and manipulation."
+    },
+    {
+        "level": "Intermediate",
+        "category": "Commands",
+        "topic": "Filtering Data",
+        "question": "How do you filter rows in a DataFrame based on a condition?",
+        "answer": "Use a boolean condition, e.g., `df[df['column'] > value]`."
+    },
+    {
+        "level": "Intermediate",
+        "category": "Commands",
+        "topic": "Merging Data",
+        "question": "How do you merge two DataFrames?",
+        "answer": "Use `pd.merge(df1, df2, on='key')` to merge DataFrames on a common key."
+    },
+    {
+        "level": "Intermediate",
+        "category": "Workflows",
+        "topic": "GroupBy",
+        "question": "What does the `groupby()` method do in Pandas?",
+        "answer": "It groups data based on one or more columns and allows for aggregate operations like sum, mean, etc."
+    },
+    {
+        "level": "Advanced",
+        "category": "Concepts",
+        "topic": "Advanced Indexing",
+        "question": "What is multi-level indexing in Pandas?",
+        "answer": "Multi-level indexing, or hierarchical indexing, allows you to work with data in a multi-dimensional format within a single DataFrame."
+    },
+    {
+        "level": "Advanced",
+        "category": "Commands",
+        "topic": "Pivot Tables",
+        "question": "How do you create a pivot table in Pandas?",
+        "answer": "Use `df.pivot_table(values='column', index='row_index', columns='col_index')`."
+    },
+    {
+        "level": "Advanced",
+        "category": "Commands",
+        "topic": "Handling Missing Data",
+        "question": "How do you handle missing data in a DataFrame?",
+        "answer": "Use methods like `df.dropna()` to remove missing values or `df.fillna(value)` to replace them with a specific value."
+    },
+    {
+        "level": "Advanced",
+        "category": "Workflows",
+        "topic": "Performance Optimization",
+        "question": "How do you optimize Pandas operations for large datasets?",
+        "answer": "Use techniques like vectorized operations, working with smaller chunks, and leveraging libraries like Dask for parallel processing."
+    }
+]

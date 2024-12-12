@@ -1,0 +1,100 @@
+[
+    {
+        "level": "Beginner",
+        "category": "Concepts",
+        "topic": "Databases",
+        "question": "What is SQL?",
+        "answer": "SQL (Structured Query Language) is a standard programming language used to manage and manipulate relational databases."
+    },
+    {
+        "level": "Beginner",
+        "category": "Concepts",
+        "topic": "Tables",
+        "question": "What is a table in a database?",
+        "answer": "A table is a collection of related data organized into rows and columns."
+    },
+    {
+        "level": "Beginner",
+        "category": "Commands",
+        "topic": "Data Retrieval",
+        "question": "What does the `SELECT` statement do?",
+        "answer": "The `SELECT` statement retrieves data from a database."
+    },
+    {
+        "level": "Beginner",
+        "category": "Commands",
+        "topic": "Filtering Data",
+        "question": "How do you filter data in SQL?",
+        "answer": "Use the `WHERE` clause to filter data based on specific conditions."
+    },
+    {
+        "level": "Beginner",
+        "category": "Workflows",
+        "topic": "Basic Workflow",
+        "question": "What is the basic SQL query structure?",
+        "answer": "A basic SQL query includes `SELECT` columns `FROM` table and optionally a `WHERE` condition."
+    },
+    {
+        "level": "Intermediate",
+        "category": "Concepts",
+        "topic": "Joins",
+        "question": "What is a JOIN in SQL?",
+        "answer": "A JOIN combines rows from two or more tables based on a related column."
+    },
+    {
+        "level": "Intermediate",
+        "category": "Commands",
+        "topic": "Inner Join",
+        "question": "What does an `INNER JOIN` do?",
+        "answer": "An `INNER JOIN` returns rows where there is a match in both tables."
+    },
+    {
+        "level": "Intermediate",
+        "category": "Commands",
+        "topic": "Grouping",
+        "question": "How do you group data in SQL?",
+        "answer": "Use the `GROUP BY` clause to group rows with the same values into summary rows."
+    },
+    {
+        "level": "Intermediate",
+        "category": "Workflows",
+        "topic": "Aggregations",
+        "question": "What is an aggregate function in SQL?",
+        "answer": "Aggregate functions like `SUM`, `COUNT`, `AVG`, `MIN`, and `MAX` perform calculations on a set of values."
+    },
+    {
+        "level": "Advanced",
+        "category": "Concepts",
+        "topic": "Indexes",
+        "question": "What is an index in SQL?",
+        "answer": "An index is a database object that improves the speed of data retrieval operations on a table."
+    },
+    {
+        "level": "Advanced",
+        "category": "Commands",
+        "topic": "Subqueries",
+        "question": "What is a subquery in SQL?",
+        "answer": "A subquery is a query nested inside another query."
+    },
+    {
+        "level": "Advanced",
+        "category": "Commands",
+        "topic": "Transactions",
+        "question": "What does the `BEGIN TRANSACTION` command do?",
+        "answer": "It starts a transaction, allowing a group of SQL statements to be executed as a single unit."
+    },
+    {
+        "level": "Advanced",
+        "category": "Workflows",
+        "topic": "Error Handling",
+        "question": "How do you handle errors in SQL transactions?",
+        "answer": "Use `ROLLBACK` to undo a transaction if an error occurs."
+    },
+    {
+        "level": "Advanced",
+        "category": "Workflows",
+        "topic": "Stored Procedures",
+        "question": "What is a stored procedure in SQL?",
+        "answer": "A stored procedure is a precompiled collection of SQL statements stored in the database that can be executed as a program."
+    }
+]

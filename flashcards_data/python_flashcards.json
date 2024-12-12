@@ -1,0 +1,100 @@
+[
+    {
+        "level": "Beginner",
+        "category": "Concepts",
+        "topic": "Introduction",
+        "question": "What is Python?",
+        "answer": "Python is a high-level, interpreted programming language known for its readability and versatility."
+    },
+    {
+        "level": "Beginner",
+        "category": "Concepts",
+        "topic": "Data Types",
+        "question": "What are Python's core data types?",
+        "answer": "Core data types include integers, floats, strings, booleans, and NoneType."
+    },
+    {
+        "level": "Beginner",
+        "category": "Commands",
+        "topic": "Printing",
+        "question": "How do you print something in Python?",
+        "answer": "Use the `print()` function, e.g., `print('Hello, World!')`."
+    },
+    {
+        "level": "Beginner",
+        "category": "Commands",
+        "topic": "Variables",
+        "question": "How do you declare a variable in Python?",
+        "answer": "Simply assign a value using `=`, e.g., `x = 5`."
+    },
+    {
+        "level": "Beginner",
+        "category": "Workflows",
+        "topic": "Basic Workflow",
+        "question": "What are the steps to write and run a Python script?",
+        "answer": "Write your code in a `.py` file, and run it using `python <filename>.py` in the terminal."
+    },
+    {
+        "level": "Intermediate",
+        "category": "Concepts",
+        "topic": "Functions",
+        "question": "What is a function in Python?",
+        "answer": "A function is a reusable block of code that performs a specific task, defined using the `def` keyword."
+    },
+    {
+        "level": "Intermediate",
+        "category": "Commands",
+        "topic": "Loops",
+        "question": "What are the two main types of loops in Python?",
+        "answer": "The two main types are `for` loops and `while` loops."
+    },
+    {
+        "level": "Intermediate",
+        "category": "Commands",
+        "topic": "Conditionals",
+        "question": "How do you write an if-else statement in Python?",
+        "answer": "Use `if`, `elif`, and `else` keywords, e.g., `if x > 0: print('Positive') else: print('Non-positive')`."
+    },
+    {
+        "level": "Intermediate",
+        "category": "Workflows",
+        "topic": "Error Handling",
+        "question": "How do you handle exceptions in Python?",
+        "answer": "Use `try-except` blocks to handle exceptions."
+    },
+    {
+        "level": "Advanced",
+        "category": "Concepts",
+        "topic": "Decorators",
+        "question": "What is a decorator in Python?",
+        "answer": "A decorator is a function that modifies the behavior of another function or method."
+    },
+    {
+        "level": "Advanced",
+        "category": "Commands",
+        "topic": "Generators",
+        "question": "What is a generator in Python?",
+        "answer": "A generator is a special type of iterator that yields values using the `yield` keyword."
+    },
+    {
+        "level": "Advanced",
+        "category": "Commands",
+        "topic": "Context Managers",
+        "question": "What is a context manager in Python?",
+        "answer": "A context manager is used to manage resources, often implemented with `with` statements."
+    },
+    {
+        "level": "Advanced",
+        "category": "Workflows",
+        "topic": "Multithreading",
+        "question": "How do you use multithreading in Python?",
+        "answer": "Use the `threading` module to create and manage threads."
+    },
+    {
+        "level": "Advanced",
+        "category": "Workflows",
+        "topic": "Performance Optimization",
+        "question": "How do you optimize the performance of a Python program?",
+        "answer": "Use techniques like profiling, caching, using efficient data structures, and leveraging libraries like NumPy."
+    }
+]
