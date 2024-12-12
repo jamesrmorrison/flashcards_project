@@ -1,6 +1,7 @@
 import json
 import os
 import random
+import time
 
 def load_flashcards(directory):
     """
@@ -14,7 +15,7 @@ def load_flashcards(directory):
     """
     flashcards = {}
     for filename in os.listdir(directory):
-        if filename.endswith('.json'):
+        if filename.endswith('.json') and filename != 'template.json':
             topic = filename.replace('_flashcards.json', '')
             filepath = os.path.join(directory, filename)
             with open(filepath, 'r') as file:
@@ -51,6 +52,8 @@ def display_flashcard(flashcard):
     input("Press Enter to reveal the answer...")
     print("Answer:")
     print(flashcard.get('answer', 'No answer available'))
+    time.sleep(5)
+    input("Press Enter to continue to the next question...")
 
 def main():
     """
