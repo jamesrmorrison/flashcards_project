@@ -1,5 +1,6 @@
 [
     {
+        "subject": "Pandas",
         "level": "Beginner",
         "category": "Concepts",
         "topic": "Introduction",
@@ -7,6 +8,7 @@
         "answer": "Pandas is a Python library for data manipulation and analysis, providing data structures like DataFrame and Series."
     },
     {
+        "subject": "Pandas",
         "level": "Beginner",
         "category": "Concepts",
         "topic": "Core Data Structures",
@@ -14,6 +16,7 @@
         "answer": "The core data structures in Pandas are Series (1D) and DataFrame (2D)."
     },
     {
+        "subject": "Pandas",
         "level": "Beginner",
         "category": "Commands",
         "topic": "Creating DataFrames",
@@ -21,6 +24,7 @@
         "answer": "You can create a DataFrame using `pd.DataFrame(data)` where `data` can be a dictionary, list of lists, or other data structures."
     },
     {
+        "subject": "Pandas",
         "level": "Beginner",
         "category": "Commands",
         "topic": "Viewing Data",
@@ -28,6 +32,7 @@
         "answer": "Use `df.head()` to view the first five rows or `df.tail()` to view the last five rows."
     },
     {
+        "subject": "Pandas",
         "level": "Beginner",
         "category": "Workflows",
         "topic": "Loading Data",
@@ -35,6 +40,7 @@
         "answer": "Use `pd.read_csv('filename.csv')` to load data from a CSV file into a DataFrame."
     },
     {
+        "subject": "Pandas",
         "level": "Intermediate",
         "category": "Concepts",
         "topic": "Indexing",
@@ -42,6 +48,7 @@
         "answer": "An index is used to uniquely identify rows in a DataFrame, enabling efficient data access and manipulation."
     },
     {
+        "subject": "Pandas",
         "level": "Intermediate",
         "category": "Commands",
         "topic": "Filtering Data",
@@ -49,6 +56,7 @@
         "answer": "Use a boolean condition, e.g., `df[df['column'] > value]`."
     },
     {
+        "subject": "Pandas",
         "level": "Intermediate",
         "category": "Commands",
         "topic": "Merging Data",
@@ -56,6 +64,7 @@
         "answer": "Use `pd.merge(df1, df2, on='key')` to merge DataFrames on a common key."
     },
     {
+        "subject": "Pandas",
         "level": "Intermediate",
         "category": "Workflows",
         "topic": "GroupBy",
@@ -63,6 +72,7 @@
         "answer": "It groups data based on one or more columns and allows for aggregate operations like sum, mean, etc."
     },
     {
+        "subject": "Pandas",
         "level": "Advanced",
         "category": "Concepts",
         "topic": "Advanced Indexing",
@@ -70,6 +80,7 @@
         "answer": "Multi-level indexing, or hierarchical indexing, allows you to work with data in a multi-dimensional format within a single DataFrame."
     },
     {
+        "subject": "Pandas",
         "level": "Advanced",
         "category": "Commands",
         "topic": "Pivot Tables",
@@ -77,6 +88,7 @@
         "answer": "Use `df.pivot_table(values='column', index='row_index', columns='col_index')`."
     },
     {
+        "subject": "Pandas",
         "level": "Advanced",
         "category": "Commands",
         "topic": "Handling Missing Data",
@@ -84,6 +96,7 @@
         "answer": "Use methods like `df.dropna()` to remove missing values or `df.fillna(value)` to replace them with a specific value."
     },
     {
+        "subject": "Pandas",
         "level": "Advanced",
         "category": "Workflows",
         "topic": "Performance Optimization",

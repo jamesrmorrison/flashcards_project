@@ -1,5 +1,6 @@
 [
     {
+        "subject": "Python",
         "level": "Beginner",
         "category": "Concepts",
         "topic": "Introduction",
@@ -7,6 +8,7 @@
         "answer": "Python is a high-level, interpreted programming language known for its readability and versatility."
     },
     {
+        "subject": "Python",
         "level": "Beginner",
         "category": "Concepts",
         "topic": "Data Types",
@@ -14,6 +16,7 @@
         "answer": "Core data types include integers, floats, strings, booleans, and NoneType."
     },
     {
+        "subject": "Python",
         "level": "Beginner",
         "category": "Commands",
         "topic": "Printing",
@@ -21,6 +24,7 @@
         "answer": "Use the `print()` function, e.g., `print('Hello, World!')`."
     },
     {
+        "subject": "Python",
         "level": "Beginner",
         "category": "Commands",
         "topic": "Variables",
@@ -28,6 +32,7 @@
         "answer": "Simply assign a value using `=`, e.g., `x = 5`."
     },
     {
+        "subject": "Python",
         "level": "Beginner",
         "category": "Workflows",
         "topic": "Basic Workflow",
@@ -35,6 +40,7 @@
         "answer": "Write your code in a `.py` file, and run it using `python <filename>.py` in the terminal."
     },
     {
+        "subject": "Python",
         "level": "Intermediate",
         "category": "Concepts",
         "topic": "Functions",
@@ -42,6 +48,7 @@
         "answer": "A function is a reusable block of code that performs a specific task, defined using the `def` keyword."
     },
     {
+        "subject": "Python",
         "level": "Intermediate",
         "category": "Commands",
         "topic": "Loops",
@@ -49,6 +56,7 @@
         "answer": "The two main types are `for` loops and `while` loops."
     },
     {
+        "subject": "Python",
         "level": "Intermediate",
         "category": "Commands",
         "topic": "Conditionals",
@@ -56,6 +64,7 @@
         "answer": "Use `if`, `elif`, and `else` keywords, e.g., `if x > 0: print('Positive') else: print('Non-positive')`."
     },
     {
+        "subject": "Python",
         "level": "Intermediate",
         "category": "Workflows",
         "topic": "Error Handling",
@@ -63,6 +72,7 @@
         "answer": "Use `try-except` blocks to handle exceptions."
     },
     {
+        "subject": "Python",
         "level": "Advanced",
         "category": "Concepts",
         "topic": "Decorators",
@@ -70,6 +80,7 @@
         "answer": "A decorator is a function that modifies the behavior of another function or method."
     },
     {
+        "subject": "Python",
         "level": "Advanced",
         "category": "Commands",
         "topic": "Generators",
@@ -77,6 +88,7 @@
         "answer": "A generator is a special type of iterator that yields values using the `yield` keyword."
     },
     {
+        "subject": "Python",
         "level": "Advanced",
         "category": "Commands",
         "topic": "Context Managers",
@@ -84,6 +96,7 @@
         "answer": "A context manager is used to manage resources, often implemented with `with` statements."
     },
     {
+        "subject": "Python",
         "level": "Advanced",
         "category": "Workflows",
         "topic": "Multithreading",
@@ -91,6 +104,7 @@
         "answer": "Use the `threading` module to create and manage threads."
     },
     {
+        "subject": "Python",
         "level": "Advanced",
         "category": "Workflows",
         "topic": "Performance Optimization",

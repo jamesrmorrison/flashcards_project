@@ -1,100 +1,122 @@
 [
-  {
-    "level": "Beginner",
-    "category": "Concepts",
-    "topic": "Introduction",
-    "question": "What is Django?",
-    "answer": "Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design."
-  },
-  {
-  "level": "Beginner",
-  "category": "Concepts",
-  "topic": "Models",
-  "question": "What is a model in Django?",
-  "answer": "A model is a class in Django that represents a database table and defines the structure of the data."
-},
-{
-  "level": "Beginner",
-  "category": "Commands",
-  "topic": "Starting a Project",
-  "question": "How do you start a new Django project?",
-  "answer": "Use the command `django-admin startproject <projectname>`."
-},
-{
-  "level": "Beginner",
-  "category": "Commands",
-  "topic": "Running the Server",
-  "question": "How do you run the Django development server?",
-  "answer": "Use the command `python manage.py runserver`."
-},
-{
-  "level": "Beginner",
-  "category": "Concepts",
-  "topic": "Views",
-  "question": "What is a view in Django?",
-  "answer": "A view is a function or class in Django that handles a web request and returns a web response."
-},
-{
-  "level": "Beginner",
-  "category": "Concepts",
-  "topic": "Templates",
-  "question": "What is a template in Django?",
-  "answer": "A template is a text file in Django that defines the structure or layout of a file (like an HTML page) and can contain placeholders for dynamic content."
-},
-{
-  "level": "Intermediate",
-  "category": "Concepts",
-  "topic": "Forms",
-  "question": "What are forms in Django?",
-  "answer": "Forms in Django are used to handle user input and can be rendered in HTML, validated, and processed."
-},
-{
-  "level": "Intermediate",
-  "category": "Commands",
-  "topic": "Creating an App",
-  "question": "How do you create a new Django app within a project?",
-  "answer": "Use the command `python manage.py startapp <appname>`."
-},
-{
-  "level": "Intermediate",
-  "category": "Commands",
-  "topic": "Migrations",
-  "question": "What are migrations in Django?",
-  "answer": "Migrations are files in Django that track changes to the database schema and apply those changes to the database."
-},
-{
-  "level": "Intermediate",
-  "category": "Workflows",
-  "topic": "Admin Interface",
-  "question": "How do you access the Django admin interface?",
-  "answer": "Access the admin interface by running the development server and visiting `/admin` in the browser."
-},
-{
-  "level": "Advanced",
-  "category": "Concepts",
-  "topic": "Middleware",
-  "question": "What is middleware in Django?",
-  "answer": "Middleware in Django is a framework of hooks into Django's request/response processing. It's a light, low-level plugin system for globally altering Django's input or output."
-},
-{
-  "level": "Advanced",
-  "category": "Commands",
-  "topic": "Custom Management Commands",
-  "question": "How do you create custom management commands in Django?",
-  "answer": "Create a Python module in the `management/commands` directory of an app, define a subclass of `BaseCommand`, and implement the `handle()` method."
-},
-{
-  "level": "Advanced",
-  "category": "Workflows",
-  "topic": "Testing",
-  "question": "How do you write tests in Django?",
-  "answer": "Write tests as methods of a `TestCase` subclass, using Django's `TestCase` class and its built-in assertion methods."
-},
-{
-  "level": "Advanced",
-  "category": "Concepts",
-  "topic": "REST APIs",
-  "question": "What are REST APIs in Django?",
-  "answer": "REST APIs in Django are web APIs that adhere to the principles of REST (Representational State Transfer) and allow interaction with data using standard HTTP methods."
-}
+    {
+        "subject": "Django",
+        "level": "Beginner",
+        "category": "Concepts",
+        "topic": "Introduction",
+        "question": "What is Django?",
+        "answer": "Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design."
+    },
+    {
+        "subject": "Django",
+        "level": "Beginner",
+        "category": "Concepts",
+        "topic": "Models",
+        "question": "What is a model in Django?",
+        "answer": "A model is a class in Django that represents a database table and defines the structure of the data."
+    },
+    {
+        "subject": "Django",
+        "level": "Beginner",
+        "category": "Commands",
+        "topic": "Starting a Project",
+        "question": "How do you start a new Django project?",
+        "answer": "Use the command `django-admin startproject <projectname>`."
+    },
+    {
+        "subject": "Django",
+        "level": "Beginner",
+        "category": "Commands",
+        "topic": "Running the Server",
+        "question": "How do you run the Django development server?",
+        "answer": "Use the command `python manage.py runserver`."
+    },
+    {
+        "subject": "Django",
+        "level": "Beginner",
+        "category": "Concepts",
+        "topic": "Views",
+        "question": "What is a view in Django?",
+        "answer": "A view is a function or class in Django that handles a web request and returns a web response."
+    },
+    {
+        "subject": "Django",
+        "level": "Beginner",
+        "category": "Concepts",
+        "topic": "Templates",
+        "question": "What is a template in Django?",
+        "answer": "A template is a text file in Django that defines the structure or layout of a file (like an HTML page) and can contain placeholders for dynamic content."
+    },
+    {
+        "subject": "Django",
+        "level": "Intermediate",
+        "category": "Concepts",
+        "topic": "Forms",
+        "question": "What are forms in Django?",
+        "answer": "Forms in Django are used to handle user input and can be rendered in HTML, validated, and processed."
+    },
+    {
+        "subject": "Django",
+        "level": "Intermediate",
+        "category": "Commands",
+        "topic": "Creating an App",
+        "question": "How do you create a new Django app within a project?",
+        "answer": "Use the command `python manage.py startapp <appname>`."
+    },
+    {
+        "subject": "Django",
+        "level": "Intermediate",
+        "category": "Commands",
+        "topic": "Migrations",
+        "question": "What are migrations in Django?",
+        "answer": "Migrations are files in Django that track changes to the database schema and apply those changes to the database."
+    },
+    {
+        "subject": "Django",
+        "level": "Intermediate",
+        "category": "Workflows",
+        "topic": "Admin Interface",
+        "question": "How do you access the Django admin interface?",
+        "answer": "Access the admin interface by running the development server and visiting `/admin` in the browser."
+    },
+    {
+        "subject": "Django",
+        "level": "Advanced",
+        "category": "Concepts",
+        "topic": "Middleware",
+        "question": "What is middleware in Django?",
+        "answer": "Middleware in Django is a framework of hooks into Django's request/response processing. It's a light, low-level plugin system for globally altering Django's input or output."
+    },
+    {
+        "subject": "Django",
+        "level": "Advanced",
+        "category": "Commands",
+        "topic": "Custom Management Commands",
+        "question": "How do you create custom management commands in Django?",
+        "answer": "Create a Python module in the `management/commands` directory of an app, define a subclass of `BaseCommand`, and implement the `handle()` method."
+    },
+    {
+        "subject": "Django",
+        "level": "Advanced",
+        "category": "Workflows",
+        "topic": "Testing",
+        "question": "How do you write tests in Django?",
+        "answer": "Write tests as methods of a `TestCase` subclass, using Django's `TestCase` class and its built-in assertion methods."
+    },
+    {
+        "subject": "Django",
+        "level": "Advanced",
+        "category": "Concepts",
+        "topic": "REST APIs",
+        "question": "What are REST APIs in Django?",
+        "answer": "REST APIs in Django are web APIs that adhere to the principles of REST (Representational State Transfer) and allow interaction with data using standard HTTP methods."
+    },
+    {
+        "subject": "Django",
+        "level": "Beginner",
+        "category": "Concepts",
+        "topic": "New",
+        "question": "Test 1",
+        "answer": "Test 2"
+    }
 ]

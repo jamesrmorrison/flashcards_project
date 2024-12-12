@@ -1,5 +1,6 @@
 [
     {
+        "subject": "NumPy",
         "level": "Beginner",
         "category": "Concepts",
         "topic": "Introduction",
@@ -7,6 +8,7 @@
         "answer": "NumPy is a Python library for numerical computing, providing support for arrays, matrices, and mathematical functions."
     },
     {
+        "subject": "NumPy",
         "level": "Beginner",
         "category": "Concepts",
         "topic": "Arrays",
@@ -14,6 +16,7 @@
         "answer": "The core data structure in NumPy is the ndarray, which stands for N-dimensional array."
     },
     {
+        "subject": "NumPy",
         "level": "Beginner",
         "category": "Commands",
         "topic": "Creating Arrays",
@@ -21,6 +24,7 @@
         "answer": "Use `numpy.array()` with a list or iterable, e.g., `numpy.array([1, 2, 3])`."
     },
     {
+        "subject": "NumPy",
         "level": "Beginner",
         "category": "Commands",
         "topic": "Array Properties",
@@ -28,6 +32,7 @@
         "answer": "Use the `.shape` attribute, e.g., `array.shape`."
     },
     {
+        "subject": "NumPy",
         "level": "Intermediate",
         "category": "Commands",
         "topic": "Array Operations",
@@ -35,6 +40,7 @@
         "answer": "Use standard operators, e.g., `array1 + array2` or `array * 2`."
     },
     {
+        "subject": "NumPy",
         "level": "Intermediate",
         "category": "Commands",
         "topic": "Slicing",
@@ -42,6 +48,7 @@
         "answer": "Use slicing syntax, e.g., `array[start:stop:step]`."
     },
     {
+        "subject": "NumPy",
         "level": "Intermediate",
         "category": "Concepts",
         "topic": "Broadcasting",
@@ -49,6 +56,7 @@
         "answer": "Broadcasting is a method for performing operations on arrays of different shapes by expanding them to compatible shapes."
     },
     {
+        "subject": "NumPy",
         "level": "Intermediate",
         "category": "Workflows",
         "topic": "Linear Algebra",
@@ -56,6 +64,7 @@
         "answer": "Use `numpy.dot()` or the `@` operator for matrix multiplication."
     },
     {
+        "subject": "NumPy",
         "level": "Advanced",
         "category": "Commands",
         "topic": "Advanced Indexing",
@@ -63,6 +72,7 @@
         "answer": "Pass a boolean array as an index to select elements, e.g., `array[array > 5]`."
     },
     {
+        "subject": "NumPy",
         "level": "Advanced",
         "category": "Commands",
         "topic": "Advanced Functions",
@@ -70,6 +80,7 @@
         "answer": "Use `numpy.linalg.eig(matrix)`."
     },
     {
+        "subject": "NumPy",
         "level": "Advanced",
         "category": "Workflows",
         "topic": "Performance Optimization",

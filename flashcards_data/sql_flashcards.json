@@ -1,5 +1,6 @@
 [
     {
+        "subject": "SQL",
         "level": "Beginner",
         "category": "Concepts",
         "topic": "Databases",
@@ -7,6 +8,7 @@
         "answer": "SQL (Structured Query Language) is a standard programming language used to manage and manipulate relational databases."
     },
     {
+        "subject": "SQL",
         "level": "Beginner",
         "category": "Concepts",
         "topic": "Tables",
@@ -14,6 +16,7 @@
         "answer": "A table is a collection of related data organized into rows and columns."
     },
     {
+        "subject": "SQL",
         "level": "Beginner",
         "category": "Commands",
         "topic": "Data Retrieval",
@@ -21,6 +24,7 @@
         "answer": "The `SELECT` statement retrieves data from a database."
     },
     {
+        "subject": "SQL",
         "level": "Beginner",
         "category": "Commands",
         "topic": "Filtering Data",
@@ -28,6 +32,7 @@
         "answer": "Use the `WHERE` clause to filter data based on specific conditions."
     },
     {
+        "subject": "SQL",
         "level": "Beginner",
         "category": "Workflows",
         "topic": "Basic Workflow",
@@ -35,6 +40,7 @@
         "answer": "A basic SQL query includes `SELECT` columns `FROM` table and optionally a `WHERE` condition."
     },
     {
+        "subject": "SQL",
         "level": "Intermediate",
         "category": "Concepts",
         "topic": "Joins",
@@ -42,6 +48,7 @@
         "answer": "A JOIN combines rows from two or more tables based on a related column."
     },
     {
+        "subject": "SQL",
         "level": "Intermediate",
         "category": "Commands",
         "topic": "Inner Join",
@@ -49,6 +56,7 @@
         "answer": "An `INNER JOIN` returns rows where there is a match in both tables."
     },
     {
+        "subject": "SQL",
         "level": "Intermediate",
         "category": "Commands",
         "topic": "Grouping",
@@ -56,6 +64,7 @@
         "answer": "Use the `GROUP BY` clause to group rows with the same values into summary rows."
     },
     {
+        "subject": "SQL",
         "level": "Intermediate",
         "category": "Workflows",
         "topic": "Aggregations",
@@ -63,6 +72,7 @@
         "answer": "Aggregate functions like `SUM`, `COUNT`, `AVG`, `MIN`, and `MAX` perform calculations on a set of values."
     },
     {
+        "subject": "SQL",
         "level": "Advanced",
         "category": "Concepts",
         "topic": "Indexes",
@@ -70,6 +80,7 @@
         "answer": "An index is a database object that improves the speed of data retrieval operations on a table."
     },
     {
+        "subject": "SQL",
         "level": "Advanced",
         "category": "Commands",
         "topic": "Subqueries",
@@ -77,6 +88,7 @@
         "answer": "A subquery is a query nested inside another query."
     },
     {
+        "subject": "SQL",
         "level": "Advanced",
         "category": "Commands",
         "topic": "Transactions",
@@ -84,6 +96,7 @@
         "answer": "It starts a transaction, allowing a group of SQL statements to be executed as a single unit."
     },
     {
+        "subject": "SQL",
         "level": "Advanced",
         "category": "Workflows",
         "topic": "Error Handling",
@@ -91,6 +104,7 @@
         "answer": "Use `ROLLBACK` to undo a transaction if an error occurs."
     },
     {
+        "subject": "SQL",
         "level": "Advanced",
         "category": "Workflows",
         "topic": "Stored Procedures",

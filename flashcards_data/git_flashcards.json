@@ -1,5 +1,6 @@
 [
     {
+        "subject": "Git",
         "level": "Beginner",
         "category": "Concepts",
         "topic": "Version Control",
@@ -7,6 +8,7 @@
         "answer": "Git is a distributed version control system used to track changes in source code during software development."
     },
     {
+        "subject": "Git",
         "level": "Beginner",
         "category": "Concepts",
         "topic": "Repository",
@@ -14,6 +16,7 @@
         "answer": "A repository is a storage space where your project files and their version history are managed."
     },
     {
+        "subject": "Git",
         "level": "Beginner",
         "category": "Commands",
         "topic": "Initializing a Repository",
@@ -21,6 +24,7 @@
         "answer": "It initializes a new Git repository in the current directory, creating a `.git` folder to track changes."
     },
     {
+        "subject": "Git",
         "level": "Beginner",
         "category": "Commands",
         "topic": "Staging Changes",
@@ -28,6 +32,7 @@
         "answer": "`git add <file>` stages the specified file for the next commit."
     },
     {
+        "subject": "Git",
         "level": "Beginner",
         "category": "Workflows",
         "topic": "Basic Workflow",
@@ -35,6 +40,7 @@
         "answer": "1. Modify files in your working directory. 2. Stage changes using `git add`. 3. Commit changes with `git commit`."
     },
     {
+        "subject": "Git",
         "level": "Intermediate",
         "category": "Concepts",
         "topic": "Branching",
@@ -42,6 +48,7 @@
         "answer": "Branching allows you to diverge from the main project line to work on changes without affecting the main codebase."
     },
     {
+        "subject": "Git",
         "level": "Intermediate",
         "category": "Commands",
         "topic": "Branching",
@@ -49,6 +56,7 @@
         "answer": "Use `git checkout -b <branch-name>` or `git switch -c <branch-name>`."
     },
     {
+        "subject": "Git",
         "level": "Intermediate",
         "category": "Commands",
         "topic": "Merging",
@@ -56,6 +64,7 @@
         "answer": "It combines changes from one branch into another."
     },
     {
+        "subject": "Git",
         "level": "Intermediate",
         "category": "Workflows",
         "topic": "Pulling Changes",
@@ -63,6 +72,7 @@
         "answer": "`git fetch` downloads changes without merging them, while `git pull` downloads and merges the changes into the current branch."
     },
     {
+        "subject": "Git",
         "level": "Advanced",
         "category": "Concepts",
         "topic": "Rebase",
@@ -70,6 +80,7 @@
         "answer": "Rebasing re-applies commits on top of another base tip, creating a linear history."
     },
     {
+        "subject": "Git",
         "level": "Advanced",
         "category": "Commands",
         "topic": "Interactive Rebase",
@@ -77,6 +88,7 @@
         "answer": "It allows you to interactively edit, squash, or reorder commits during a rebase."
     },
     {
+        "subject": "Git",
         "level": "Advanced",
         "category": "Commands",
         "topic": "Cherry-Picking",
@@ -84,6 +96,7 @@
         "answer": "Use `git cherry-pick <commit-hash>` to apply a specific commit from one branch to another."
     },
     {
+        "subject": "Git",
         "level": "Advanced",
         "category": "Workflows",
         "topic": "Advanced Conflict Resolution",
@@ -91,6 +104,7 @@
         "answer": "Open conflicting files, resolve conflicts, mark them resolved with `git add`, and commit the changes."
     },
     {
+        "subject": "Git",
         "level": "Advanced",
         "category": "Workflows",
         "topic": "Git Hooks",
