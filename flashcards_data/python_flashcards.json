@@ -50,6 +50,14 @@
     {
         "subject": "Python",
         "level": "Intermediate",
+        "category": "Concepts",
+        "topic": "Lambda Functions",
+        "question": "What is a lambda function in Python?",
+        "answer": "A lambda function is a small anonymous function defined with the `lambda` keyword, e.g., `lambda x: x + 1`."
+    },
+    {
+        "subject": "Python",
+        "level": "Intermediate",
         "category": "Commands",
         "topic": "Loops",
         "question": "What are the two main types of loops in Python?",
@@ -77,7 +85,15 @@
         "category": "Concepts",
         "topic": "Decorators",
         "question": "What is a decorator in Python?",
-        "answer": "A decorator is a function that modifies the behavior of another function or method."
+        "answer": "A decorator is a function that modifies the behavior of another function or method. For example, `@staticmethod`."
+    },
+    {
+        "subject": "Python",
+        "level": "Advanced",
+        "category": "Concepts",
+        "topic": "Metaclasses",
+        "question": "What is a metaclass in Python?",
+        "answer": "A metaclass is a class for classes, defining how classes themselves behave."
     },
     {
         "subject": "Python",
@@ -85,7 +101,7 @@
         "category": "Commands",
         "topic": "Generators",
         "question": "What is a generator in Python?",
-        "answer": "A generator is a special type of iterator that yields values using the `yield` keyword."
+        "answer": "A generator is a special type of iterator that yields values using the `yield` keyword. Example: `def count_up_to(max): count = 1; while count <= max: yield count; count += 1`."
     },
     {
         "subject": "Python",
@@ -93,7 +109,7 @@
         "category": "Commands",
         "topic": "Context Managers",
         "question": "What is a context manager in Python?",
-        "answer": "A context manager is used to manage resources, often implemented with `with` statements."
+        "answer": "A context manager is used to manage resources, often implemented with `with` statements. Example: `with open('file.txt') as f: content = f.read()`."
     },
     {
         "subject": "Python",
@@ -101,7 +117,7 @@
         "category": "Workflows",
         "topic": "Multithreading",
         "question": "How do you use multithreading in Python?",
-        "answer": "Use the `threading` module to create and manage threads."
+        "answer": "Use the `threading` module to create and manage threads. Example: `import threading; threading.Thread(target=function).start()`."
     },
     {
         "subject": "Python",
@@ -109,6 +125,286 @@
         "category": "Workflows",
         "topic": "Performance Optimization",
         "question": "How do you optimize the performance of a Python program?",
-        "answer": "Use techniques like profiling, caching, using efficient data structures, and leveraging libraries like NumPy."
+        "answer": "Use techniques like profiling, caching, using efficient data structures, and leveraging libraries like NumPy. Example: `from functools import lru_cache`."
+    },
+    {
+        "subject": "Python",
+        "level": "Expert",
+        "category": "Concepts",
+        "topic": "Async Programming",
+        "question": "What is asynchronous programming in Python?",
+        "answer": "Asynchronous programming allows tasks to run concurrently, improving efficiency. Use `asyncio` with `async def` and `await` for async functions."
+    },
+    {
+        "subject": "Python",
+        "level": "Expert",
+        "category": "Workflows",
+        "topic": "Performance Profiling",
+        "question": "How do you profile performance in Python?",
+        "answer": "Use the `cProfile` module for profiling. Example: `import cProfile; cProfile.run('my_function()')`."
+    },
+    {
+        "subject": "Python",
+        "level": "Beginner",
+        "category": "Concepts",
+        "topic": "Variables",
+        "question": "What is a variable in Python?",
+        "answer": "A variable is a named location used to store data. You assign a value using the `=` operator, e.g., `x = 10`."
+    },
+    {
+        "subject": "Python",
+        "level": "Beginner",
+        "category": "Commands",
+        "topic": "String Manipulation",
+        "question": "How do you concatenate strings in Python?",
+        "answer": "You concatenate strings using the `+` operator, e.g., `hello = 'Hello ' + 'World!'`."
+    },
+    {
+        "subject": "Python",
+        "level": "Beginner",
+        "category": "Commands",
+        "topic": "List Operations",
+        "question": "How do you add an item to a list in Python?",
+        "answer": "You can use the `append()` method, e.g., `my_list.append(5)`."
+    },
+    {
+        "subject": "Python",
+        "level": "Beginner",
+        "category": "Commands",
+        "topic": "Loops",
+        "question": "How do you iterate through a list in Python?",
+        "answer": "You can iterate using a `for` loop, e.g., `for item in my_list: print(item)`."
+    },
+    {
+        "subject": "Python",
+        "level": "Beginner",
+        "category": "Concepts",
+        "topic": "Booleans",
+        "question": "What are boolean values in Python?",
+        "answer": "Boolean values represent `True` or `False`. They are used in conditional statements."
+    },
+    {
+        "subject": "Python",
+        "level": "Intermediate",
+        "category": "Functions",
+        "topic": "Arguments",
+        "question": "What is the difference between *args and **kwargs in Python?",
+        "answer": "`*args` allows passing a variable number of non-keyword arguments, while `**kwargs` allows passing a variable number of keyword arguments."
+    },
+    {
+        "subject": "Python",
+        "level": "Intermediate",
+        "category": "Commands",
+        "topic": "List Comprehensions",
+        "question": "What is a list comprehension in Python?",
+        "answer": "A list comprehension is a concise way to create lists. Example: `[x**2 for x in range(5)]` creates `[0, 1, 4, 9, 16]`."
+    },
+    {
+        "subject": "Python",
+        "level": "Intermediate",
+        "category": "Concepts",
+        "topic": "Classes",
+        "question": "What is a class in Python?",
+        "answer": "A class is a blueprint for creating objects. It defines properties and methods for the objects."
+    },
+    {
+        "subject": "Python",
+        "level": "Intermediate",
+        "category": "Concepts",
+        "topic": "Inheritance",
+        "question": "What is inheritance in Python?",
+        "answer": "Inheritance allows a class to inherit attributes and methods from another class. Example: `class Dog(Animal): pass`."
+    },
+    {
+        "subject": "Python",
+        "level": "Intermediate",
+        "category": "Commands",
+        "topic": "File Handling",
+        "question": "How do you open a file in Python?",
+        "answer": "Use the `open()` function, e.g., `file = open('file.txt', 'r')`."
+    },
+    {
+        "subject": "Python",
+        "level": "Intermediate",
+        "category": "Commands",
+        "topic": "Error Handling",
+        "question": "What is the purpose of `try-except` in Python?",
+        "answer": "The `try-except` block is used to catch and handle exceptions that may occur during code execution."
+    },
+    {
+        "subject": "Python",
+        "level": "Advanced",
+        "category": "Concepts",
+        "topic": "MetaProgramming",
+        "question": "What is metaprogramming in Python?",
+        "answer": "Metaprogramming refers to writing code that manipulates or generates code at runtime, such as using `type()` or `exec()`."
+    },
+    {
+        "subject": "Python",
+        "level": "Advanced",
+        "category": "Commands",
+        "topic": "List Slicing",
+        "question": "How do you slice a list in Python?",
+        "answer": "Use list slicing with `:`. Example: `my_list[1:4]` returns the elements from index 1 to 3."
+    },
+    {
+        "subject": "Python",
+        "level": "Advanced",
+        "category": "Concepts",
+        "topic": "Generators",
+        "question": "What are generators in Python?",
+        "answer": "Generators are special types of iterators created using the `yield` keyword, allowing lazy evaluation of sequences."
+    },
+    {
+        "subject": "Python",
+        "level": "Advanced",
+        "category": "Commands",
+        "topic": "Context Managers",
+        "question": "What is a context manager used for in Python?",
+        "answer": "A context manager is used to handle resources, like file handling, with the `with` statement ensuring resources are properly cleaned up."
+    },
+    {
+        "subject": "Python",
+        "level": "Advanced",
+        "category": "Workflows",
+        "topic": "Concurrency",
+        "question": "What is the difference between multithreading and multiprocessing in Python?",
+        "answer": "Multithreading allows multiple threads to run within a single process, while multiprocessing uses separate processes with their own memory space."
+    },
+    {
+        "subject": "Python",
+        "level": "Advanced",
+        "category": "Workflows",
+        "topic": "Performance Optimization",
+        "question": "What are some techniques to optimize Python code?",
+        "answer": "Use efficient algorithms, avoid global variables, use list comprehensions, and profile code using `cProfile`."
+    },
+    {
+        "subject": "Python",
+        "level": "Expert",
+        "category": "Concepts",
+        "topic": "Async Programming",
+        "question": "How do you use asynchronous programming in Python?",
+        "answer": "Use the `asyncio` module to create asynchronous tasks using `async def` and `await` for non-blocking operations."
+    },
+    {
+        "subject": "Python",
+        "level": "Expert",
+        "category": "Workflows",
+        "topic": "Testing",
+        "question": "How do you write unit tests in Python?",
+        "answer": "Use the `unittest` module to write tests. Example: `import unittest; class TestClass(unittest.TestCase): def test_method(self): self.assertEqual(1, 1)`."
+    },
+    {
+        "subject": "Python",
+        "level": "Expert",
+        "category": "Workflows",
+        "topic": "Profiling",
+        "question": "How do you profile Python code?",
+        "answer": "Use the `cProfile` module for profiling, which helps to identify bottlenecks in code."
+    },
+    {
+        "subject": "Python",
+        "level": "Expert",
+        "category": "Commands",
+        "topic": "Memory Management",
+        "question": "How does Python manage memory?",
+        "answer": "Python uses automatic memory management with a garbage collector to reclaim memory from unused objects."
+    },
+    {
+        "subject": "Python",
+        "level": "Expert",
+        "category": "Concepts",
+        "topic": "Descriptors",
+        "question": "What is a descriptor in Python?",
+        "answer": "A descriptor is an object that customizes access to attributes, using `__get__`, `__set__`, and `__delete__` methods."
+    },
+    {
+        "subject": "Python",
+        "level": "Expert",
+        "category": "Concepts",
+        "topic": "Cython",
+        "question": "What is Cython in Python?",
+        "answer": "Cython is a superset of Python that allows compiling Python code to C for performance optimization."
+    },
+    {
+        "subject": "Python",
+        "level": "Beginner",
+        "category": "Concepts",
+        "topic": "Indentation",
+        "question": "What role does indentation play in Python?",
+        "answer": "Indentation is used to define code blocks and control flow structures like loops and functions."
+    },
+    {
+        "subject": "Python",
+        "level": "Intermediate",
+        "category": "Commands",
+        "topic": "Dictionaries",
+        "question": "How do you create a dictionary in Python?",
+        "answer": "Use curly braces `{}` to define a dictionary, e.g., `my_dict = {'key': 'value'}`."
+    },
+    {
+        "subject": "Python",
+        "level": "Intermediate",
+        "category": "Commands",
+        "topic": "Set Operations",
+        "question": "How do you perform set operations in Python?",
+        "answer": "You can perform operations like union (`|`), intersection (`&`), and difference (`-`) on sets."
+    },
+    {
+        "subject": "Python",
+        "level": "Intermediate",
+        "category": "Commands",
+        "topic": "Lambda Functions",
+        "question": "What is a lambda function in Python?",
+        "answer": "A lambda function is a small anonymous function defined using `lambda` keyword, e.g., `lambda x: x + 1`."
+    },
+    {
+        "subject": "Python",
+        "level": "Intermediate",
+        "category": "Concepts",
+        "topic": "Scope",
+        "question": "What is variable scope in Python?",
+        "answer": "Scope refers to the region where a variable is accessible, with global and local scopes being the most common."
+    },
+    {
+        "subject": "Python",
+        "level": "Advanced",
+        "category": "Concepts",
+        "topic": "Type Hinting",
+        "question": "What is type hinting in Python?",
+        "answer": "Type hinting allows specifying expected data types of function arguments and return types, improving code readability and debugging."
+    },
+    {
+        "subject": "Python",
+        "level": "Advanced",
+        "category": "Workflows",
+        "topic": "Concurrency",
+        "question": "What is the `asyncio` module used for?",
+        "answer": "`asyncio` allows writing asynchronous programs using async/await, enabling concurrent code execution."
+    },
+    {
+        "subject": "Python",
+        "level": "Advanced",
+        "category": "Workflows",
+        "topic": "Profiling",
+        "question": "How can you use the `timeit` module for benchmarking?",
+        "answer": "The `timeit` module measures execution time of small code snippets, helping identify performance bottlenecks."
+    },
+    {
+        "subject": "Python",
+        "level": "Advanced",
+        "category": "Commands",
+        "topic": "Regular Expressions",
+        "question": "How do you use regular expressions in Python?",
+        "answer": "Use the `re` module to perform pattern matching, such as `re.match()` and `re.findall()`."
+    },
+    {
+        "subject": "Python",
+        "level": "Expert",
+        "category": "Concepts",
+        "topic": "Abstract Base Classes",
+        "question": "What are Abstract Base Classes (ABCs) in Python?",
+        "answer": "ABCs define common interfaces for a group of related classes, helping enforce consistent behavior."
     }
 ]

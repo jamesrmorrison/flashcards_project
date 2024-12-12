@@ -110,13 +110,5 @@
         "topic": "REST APIs",
         "question": "What are REST APIs in Django?",
         "answer": "REST APIs in Django are web APIs that adhere to the principles of REST (Representational State Transfer) and allow interaction with data using standard HTTP methods."
-    },
-    {
-        "subject": "Django",
-        "level": "Beginner",
-        "category": "Concepts",
-        "topic": "New",
-        "question": "Test 1",
-        "answer": "Test 2"
     }
 ]

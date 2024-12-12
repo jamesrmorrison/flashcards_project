@@ -5,7 +5,7 @@
         "category": "Concepts",
         "topic": "Version Control",
         "question": "What is Git?",
-        "answer": "Git is a distributed version control system used to track changes in source code during software development."
+        "answer": "Git is a distributed version control system that helps developers track and manage changes to source code over time. It allows multiple developers to work on the same project simultaneously while keeping track of all changes and revisions."
     },
     {
         "subject": "Git",
@@ -13,7 +13,7 @@
         "category": "Concepts",
         "topic": "Repository",
         "question": "What is a repository in Git?",
-        "answer": "A repository is a storage space where your project files and their version history are managed."
+        "answer": "A repository (repo) in Git is a storage space that contains all the project files and their history. It includes all versions of your project files and allows you to track changes and collaborate with others."
     },
     {
         "subject": "Git",
@@ -21,7 +21,7 @@
         "category": "Commands",
         "topic": "Initializing a Repository",
         "question": "What does `git init` do?",
-        "answer": "It initializes a new Git repository in the current directory, creating a `.git` folder to track changes."
+        "answer": "`git init` initializes a new Git repository in the current directory, creating a hidden `.git` folder that will track all versions and changes of your project files."
     },
     {
         "subject": "Git",
@@ -29,7 +29,7 @@
         "category": "Commands",
         "topic": "Staging Changes",
         "question": "What command stages changes in Git?",
-        "answer": "`git add <file>` stages the specified file for the next commit."
+        "answer": "`git add <file>` stages changes in the specified file(s), preparing them for the next commit. You can also use `git add .` to stage all modified files in the current directory."
     },
     {
         "subject": "Git",
@@ -37,7 +37,7 @@
         "category": "Workflows",
         "topic": "Basic Workflow",
         "question": "What is the basic Git workflow?",
-        "answer": "1. Modify files in your working directory. 2. Stage changes using `git add`. 3. Commit changes with `git commit`."
+        "answer": "The basic Git workflow is: 1) Modify files in your working directory. 2) Stage the changes using `git add`. 3) Commit the staged changes using `git commit` to record them in the local repository."
     },
     {
         "subject": "Git",
@@ -45,7 +45,7 @@
         "category": "Concepts",
         "topic": "Branching",
         "question": "What is branching in Git?",
-        "answer": "Branching allows you to diverge from the main project line to work on changes without affecting the main codebase."
+        "answer": "Branching in Git allows you to create separate lines of development, so you can work on new features or bug fixes without affecting the main codebase. Changes made in a branch do not affect other branches until they are merged."
     },
     {
         "subject": "Git",
@@ -53,7 +53,7 @@
         "category": "Commands",
         "topic": "Branching",
         "question": "How do you create and switch to a new branch?",
-        "answer": "Use `git checkout -b <branch-name>` or `git switch -c <branch-name>`."
+        "answer": "Use `git checkout -b <branch-name>` to create and switch to a new branch. Alternatively, use `git switch -c <branch-name>` in newer Git versions."
     },
     {
         "subject": "Git",
@@ -61,7 +61,7 @@
         "category": "Commands",
         "topic": "Merging",
         "question": "What does `git merge` do?",
-        "answer": "It combines changes from one branch into another."
+        "answer": "`git merge` merges changes from one branch into the current branch. It combines the commit history of both branches, incorporating the changes made in the merged branch."
     },
     {
         "subject": "Git",
@@ -69,7 +69,7 @@
         "category": "Workflows",
         "topic": "Pulling Changes",
         "question": "What is the difference between `git pull` and `git fetch`?",
-        "answer": "`git fetch` downloads changes without merging them, while `git pull` downloads and merges the changes into the current branch."
+        "answer": "`git fetch` downloads new changes from the remote repository but does not automatically apply them to your local working branch. `git pull`, on the other hand, fetches and merges those changes into your current branch."
     },
     {
         "subject": "Git",
@@ -77,7 +77,7 @@
         "category": "Concepts",
         "topic": "Rebase",
         "question": "What is rebasing in Git?",
-        "answer": "Rebasing re-applies commits on top of another base tip, creating a linear history."
+        "answer": "Rebasing is the process of moving or combining a sequence of commits to a new base commit. This creates a cleaner, linear history compared to merging, but it rewrites commit history and should be used carefully."
     },
     {
         "subject": "Git",
@@ -85,7 +85,7 @@
         "category": "Commands",
         "topic": "Interactive Rebase",
         "question": "What does `git rebase -i` do?",
-        "answer": "It allows you to interactively edit, squash, or reorder commits during a rebase."
+        "answer": "`git rebase -i` allows you to interactively rebase your commits. This lets you reorder, squash, or edit commits before they are applied to the branch's history."
     },
     {
         "subject": "Git",
@@ -93,7 +93,7 @@
         "category": "Commands",
         "topic": "Cherry-Picking",
         "question": "How do you cherry-pick a commit?",
-        "answer": "Use `git cherry-pick <commit-hash>` to apply a specific commit from one branch to another."
+        "answer": "To cherry-pick a commit, use `git cherry-pick <commit-hash>`. This applies the changes introduced in a specific commit to your current branch."
     },
     {
         "subject": "Git",
@@ -101,7 +101,7 @@
         "category": "Workflows",
         "topic": "Advanced Conflict Resolution",
         "question": "How do you resolve complex merge conflicts manually?",
-        "answer": "Open conflicting files, resolve conflicts, mark them resolved with `git add`, and commit the changes."
+        "answer": "To resolve merge conflicts, open the conflicting files, make necessary changes to merge them, mark the conflicts as resolved with `git add`, and finally commit the resolution with `git commit`."
     },
     {
         "subject": "Git",
@@ -109,6 +109,238 @@
         "category": "Workflows",
         "topic": "Git Hooks",
         "question": "What are Git hooks, and how are they used?",
-        "answer": "Git hooks are custom scripts that run automatically before or after specific Git events, such as committing or merging."
+        "answer": "Git hooks are custom scripts that run automatically before or after certain Git commands, such as `git commit` or `git push`. They are used to automate tasks like code formatting or running tests before committing."
+    },
+    {
+        "subject": "Git",
+        "level": "Beginner",
+        "category": "Concepts",
+        "topic": "Version Control",
+        "question": "What is the purpose of version control in Git?",
+        "answer": "Version control allows you to track changes made to files over time, providing the ability to revert to earlier versions, collaborate with others, and maintain a detailed history of modifications."
+    },
+    {
+        "subject": "Git",
+        "level": "Beginner",
+        "category": "Commands",
+        "topic": "Committing Changes",
+        "question": "What does `git commit` do?",
+        "answer": "`git commit` records the staged changes to the repository with a descriptive message. Each commit creates a snapshot of the project's state at that point in time."
+    },
+    {
+        "subject": "Git",
+        "level": "Beginner",
+        "category": "Commands",
+        "topic": "Viewing History",
+        "question": "How can you view the commit history in Git?",
+        "answer": "Use the command `git log` to view the commit history, including commit IDs, author information, and commit messages."
+    },
+    {
+        "subject": "Git",
+        "level": "Beginner",
+        "category": "Workflows",
+        "topic": "Pushing Changes",
+        "question": "What is the purpose of `git push`?",
+        "answer": "`git push` uploads your local commits to a remote repository, sharing the changes with collaborators and keeping the remote repository updated."
+    },
+    {
+        "subject": "Git",
+        "level": "Beginner",
+        "category": "Workflows",
+        "topic": "Cloning Repositories",
+        "question": "What does `git clone` do?",
+        "answer": "`git clone` creates a copy of a remote repository on your local machine, including all branches and commit history."
+    },
+    {
+        "subject": "Git",
+        "level": "Intermediate",
+        "category": "Concepts",
+        "topic": "Forking",
+        "question": "What is the difference between forking and cloning in Git?",
+        "answer": "Forking creates a personal copy of a repository on a remote server (e.g., GitHub), while cloning copies the repository to your local machine."
+    },
+    {
+        "subject": "Git",
+        "level": "Intermediate",
+        "category": "Commands",
+        "topic": "Resolving Merge Conflicts",
+        "question": "How can you resolve a merge conflict in Git?",
+        "answer": "To resolve a merge conflict, open the conflicting files, manually edit the sections with conflicts, and then stage the changes with `git add`. Afterward, commit the resolution with `git commit`."
+    },
+    {
+        "subject": "Git",
+        "level": "Intermediate",
+        "category": "Workflows",
+        "topic": "Reverting Changes",
+        "question": "How can you revert a commit in Git?",
+        "answer": "Use `git revert <commit-id>` to create a new commit that undoes the changes made in a specific commit. This is a safe way to undo changes without altering the commit history."
+    },
+    {
+        "subject": "Git",
+        "level": "Intermediate",
+        "category": "Commands",
+        "topic": "Stashing Changes",
+        "question": "What does `git stash` do?",
+        "answer": "`git stash` temporarily saves changes that are not yet ready for commit, allowing you to switch branches or perform other tasks without losing your work."
+    },
+    {
+        "subject": "Git",
+        "level": "Intermediate",
+        "category": "Concepts",
+        "topic": "Submodules",
+        "question": "What are submodules in Git?",
+        "answer": "Submodules are repositories embedded within other repositories, allowing you to keep track of dependencies or external projects while maintaining their independence."
+    },
+    {
+        "subject": "Git",
+        "level": "Advanced",
+        "category": "Concepts",
+        "topic": "Squashing Commits",
+        "question": "What does 'squashing' commits mean in Git?",
+        "answer": "Squashing commits combines multiple commits into a single commit, typically to clean up the commit history before merging a feature branch into the main branch."
+    },
+    {
+        "subject": "Git",
+        "level": "Advanced",
+        "category": "Commands",
+        "topic": "Rewriting History",
+        "question": "How do you rewrite commit history in Git?",
+        "answer": "You can rewrite commit history using commands like `git rebase -i` to edit, squash, or reorder commits, or `git commit --amend` to modify the most recent commit."
+    },
+    {
+        "subject": "Git",
+        "level": "Advanced",
+        "category": "Workflows",
+        "topic": "Fast-forward Merges",
+        "question": "What is a fast-forward merge in Git?",
+        "answer": "A fast-forward merge occurs when the branch being merged is ahead of the target branch, so Git simply moves the target branch pointer to the latest commit of the merged branch."
+    },
+    {
+        "subject": "Git",
+        "level": "Advanced",
+        "category": "Commands",
+        "topic": "Git Bisect",
+        "question": "How does `git bisect` help in debugging?",
+        "answer": "`git bisect` helps you find the commit that introduced a bug by performing a binary search through your commit history. You mark commits as 'good' or 'bad,' and Git automatically checks out the appropriate commits."
+    },
+    {
+        "subject": "Git",
+        "level": "Expert",
+        "category": "Concepts",
+        "topic": "Git Workflow Strategies",
+        "question": "What are some Git workflow strategies for large teams?",
+        "answer": "Common Git workflows for large teams include Git Flow (using feature, release, and hotfix branches) and GitHub Flow (using feature branches with pull requests). These strategies ensure collaboration and manage complex branching structures."
+    },
+    {
+        "subject": "Git",
+        "level": "Expert",
+        "category": "Workflows",
+        "topic": "Rebasing vs Merging",
+        "question": "When should you use `git rebase` instead of `git merge`?",
+        "answer": "Use `git rebase` to maintain a cleaner, linear history, especially when working with a small team or feature branches. Use `git merge` when you need to preserve the commit history of the branch and merge multiple divergent histories."
+    },
+    {
+        "subject": "Git",
+        "level": "Expert",
+        "category": "Commands",
+        "topic": "Git Filter-Branch",
+        "question": "What is `git filter-branch` used for?",
+        "answer": "`git filter-branch` allows you to rewrite history by applying transformations to your repository, such as removing sensitive data, renaming files across all commits, or changing commit authorship."
+    },
+    {
+        "subject": "Git",
+        "level": "Expert",
+        "category": "Workflows",
+        "topic": "Git Flow",
+        "question": "What is Git Flow, and when should you use it?",
+        "answer": "Git Flow is a branching model that uses specific branches for features, releases, and hotfixes. It is useful in larger teams or projects with scheduled releases, providing clear separation between different stages of development."
+    },
+    {
+        "subject": "Git",
+        "level": "Expert",
+        "category": "Concepts",
+        "topic": "Git Hooks",
+        "question": "What are the different types of Git hooks?",
+        "answer": "Git hooks are scripts that run at specific points in the Git workflow. Common hooks include `pre-commit`, `commit-msg`, `pre-push`, and `post-merge`, which can be used for tasks like formatting code, validating commit messages, or running tests."
+    },
+    {
+        "subject": "Git",
+        "level": "Expert",
+        "category": "Commands",
+        "topic": "Git LFS",
+        "question": "What is Git LFS and why is it used?",
+        "answer": "Git Large File Storage (LFS) is an extension to Git that manages large files, such as images or binaries, by storing them outside the main Git repository and keeping references in place to avoid bloating the repository."
+    },
+    {
+        "subject": "Git",
+        "level": "Expert",
+        "category": "Commands",
+        "topic": "Git Submodules",
+        "question": "How do you manage Git submodules?",
+        "answer": "You can initialize a submodule with `git submodule init`, update it with `git submodule update`, or clone it using `git clone --recursive` to include submodules in your repository."
+    },
+    {
+        "subject": "Git",
+        "level": "Expert",
+        "category": "Workflows",
+        "topic": "Git Reflog",
+        "question": "What is the purpose of `git reflog`?",
+        "answer": "`git reflog` keeps a history of changes made to the reference logs in your Git repository, including resets, merges, and checkouts, allowing you to recover lost commits or track down problematic changes."
+    },
+    {
+        "subject": "Git",
+        "level": "Expert",
+        "category": "Concepts",
+        "topic": "Git Flow vs GitHub Flow",
+        "question": "What is the difference between Git Flow and GitHub Flow?",
+        "answer": "Git Flow uses multiple long-lived branches (e.g., `develop`, `master`, `feature`, `release`), while GitHub Flow is a simpler workflow that uses only `main` and feature branches with pull requests for review and merging."
+    },
+    {
+        "subject": "Git",
+        "level": "Expert",
+        "category": "Concepts",
+        "topic": "Distributed Version Control",
+        "question": "Why is Git considered a distributed version control system?",
+        "answer": "Git is distributed because every user has a complete copy of the repository, including its history. This enables offline work and decentralized collaboration, as every clone of the repository is a full-fledged version of the project."
+    },
+    {
+        "subject": "Git",
+        "level": "Expert",
+        "category": "Commands",
+        "topic": "Git Rebase with Interactive Mode",
+        "question": "What are the advantages of using `git rebase -i`?",
+        "answer": "Interactive rebasing (`git rebase -i`) allows you to reorder, squash, or even split commits. This helps clean up commit history, making it more readable and maintainable before merging into the main branch."
+    },
+    {
+        "subject": "Git",
+        "level": "Expert",
+        "category": "Workflows",
+        "topic": "Handling Large Binary Files",
+        "question": "How should you manage large binary files in Git?",
+        "answer": "Large binary files can be managed with Git LFS (Large File Storage), which stores binary files outside the Git repository while keeping references to them in the Git index."
+    },
+    {
+        "subject": "Git",
+        "level": "Expert",
+        "category": "Commands",
+        "topic": "Git Commit --amend",
+        "question": "What does `git commit --amend` do?",
+        "answer": "`git commit --amend` allows you to modify the last commit. It can be used to change the commit message, add changes to the commit, or fix errors in the commit content."
+    },
+    {
+        "subject": "Git",
+        "level": "Expert",
+        "category": "Commands",
+        "topic": "Git Reset",
+        "question": "What is the difference between `git reset` and `git revert`?",
+        "answer": "`git reset` alters the commit history by moving the current branch pointer, which can remove commits. `git revert` creates a new commit that undoes changes, leaving the history intact."
+    },
+    {
+        "subject": "Git",
+        "level": "Expert",
+        "category": "Workflows",
+        "topic": "Git Commit Signing",
+        "question": "How do you sign Git commits with GPG?",
+        "answer": "You can sign Git commits using GPG by configuring your Git user settings with `git config --global user.signingkey <key-id>` and using the `--gpg-sign` option when committing."
     }
 ]
